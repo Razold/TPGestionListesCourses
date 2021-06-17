@@ -1,0 +1,15 @@
+# Default ignored files
+*.class
+.idea
+#.class n'est pas nécessaire car la personne qui va récupérer va forcément compiler le projet idea correspond à la configuration de notre intellij inutile ppour celui qui va récupérer le projet sur github
+out
+#est inutile si la personne qui le récupère est sous mac
+context.xml
+#ne pas envoyer context.xml qui contient les logins mdps et params
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
